@@ -1,0 +1,29 @@
+
+
+.wrapperStyle{
+    @apply flex flex-col min-h-screen font-body max-w-[1180px] mx-auto px-3 ;
+
+}
+
+.headerStyle{
+    @apply  w-full h-16 bg-white ;
+}
+
+/* .wrapperFullscreenStyle{
+     @apply 
+} */
+
+
+
+.tagsAndCommCompStyle{
+
+}
+
+.postsComponentStyle{
+   @apply  w-full;
+}
+
+
+.footerStyle{
+    @apply  w-full bg-white h-16 flex justify-center items-center;
+}

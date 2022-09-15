@@ -1,0 +1,30 @@
+
+.mainComponentStyle{
+    @apply grid grid-cols-[2fr,1fr] gap-6 md:grid-cols-[3fr,1fr] sm:grid-cols-1 ;
+}
+
+.tagsAndCommCompStyle{
+    @apply sm:row-start-1
+}
+
+.postBlock{
+    @apply w-full flex flex-col relative max-h-[520px];
+    
+}
+.postBlock:hover .removeBlock{
+        position: absolute;
+        display: flex;
+}
+
+
+
+.imageBlock{
+    @apply w-full h-[300px]; 
+}
+.contentBlock{
+   @apply bg-white w-full h-full flex flex-col rounded-b-[5px];
+}
+
+.removeBlock{
+    @apply w-[70px] h-[40px] justify-around items-center gap-x-2 rounded-md bg-white hidden top-2 right-2;
+}
